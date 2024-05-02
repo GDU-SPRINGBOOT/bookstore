@@ -27,25 +27,30 @@ Người dùng không có tài khoản (guest) có các chức năng:
 Người dùng có tài khoản (customer) có thể thực hiện các chức năng của Người dùng không có tài khoản (guest), ngoài ra người dùng có tài khoản (customer) còn có thể:
 	- Xử lý thanh toán (chức năng này thực hiện khi giỏ hàng đã có sản phẩm và người dùng đăng nhập thành công vào hệ thống): cập nhật thông tin vào CSDL + gửi email + thông báo đăng ký đặt hàng thành công với các thông tin kèm theo. Sau khi xử lý thành công, Session được xóa về null.
 Người quản trị hệ thống (admin) có thể thực hiện được chức năng như một người dùng có tài khoản (customer). Ngoài ra, chức năng khác dành cho người quản trị hệ thống (admin) - Phần Back-End:
-	- Tìm kiếm thông tin về sản phẩm/loại sản phẩm, tài khoản người dùng, các đơn đặt sản phẩm.
+	- Tìm kiếm thông tin về sản phẩm/loại sản phẩm, tài khoản người dùng,
+	các đơn đặt sản phẩm.
 	- Quản lý thông tin sản phẩm/loại sản phẩm:
 		+ Xem danh sách sản phẩm/loại sản phẩm.
 		+ Xem chi tiết từng sản phẩm/loại sản phẩm.
-		+ Xóa sản phẩm/loại sản phẩm trong trường hợp sản phẩm chưa có trong đơn hàng nào hoặc loại sản phẩm chưa có sản phẩm nào.
+		+ Xóa sản phẩm/loại sản phẩm trong trường hợp sản phẩm chưa có trong
+		đơn hàng nào hoặc loại sản phẩm chưa có sản phẩm nào.
 		+ Thêm mới, cập nhật thông tin sản phẩm/loại sản phẩm.
--	Quản lý thông tin tài khoản người dùng:
+	-	Quản lý thông tin tài khoản người dùng:
 		+ Xem danh sách các tài khoản người dùng đã đăng ký.
-		+ Xem chi tiết từng tài khoản người dùng, không xem được password của người dùng.
-		+ Xóa tài khoản người dùng nếu người dùng chưa thực hiện đặt hàng online lần nào.
+		+ Xem chi tiết từng tài khoản người dùng, không xem được password
+		của người dùng.
+		+ Xóa tài khoản người dùng nếu người dùng chưa thực hiện đặt hàng
+		online lần nào.
 		+ Cập nhật thông tin tài khoản người dùng.
--	Quản lý thông tin đơn hàng trực tuyến:
+	-	Quản lý thông tin đơn hàng trực tuyến:
 		+ Xem danh sách các đơn hàng (sắp xếp theo ngày mua)
 		+ Xem chi tiết đơn hàng.
 		+ Cập nhật số lượng của mặt hàng trong đơn hàng trực tuyến
 	- Lưu ý cho các chức năng quản lý thông tin:
 		+ Ràng buộc khi xóa dữ liệu
-		+ Trường hợp thêm hay cập nhật dữ liệu có thể kiểm tra phía Client bằng JavaScript/jQuery hoặc kiểm tra bằng Model phía Server, không dùng
-Functions/Check constraints/Stored Procedures trong hệ quản trị CSDL.
+		+ Trường hợp thêm hay cập nhật dữ liệu có thể kiểm tra phía Client
+		bằng JavaScript/jQuery hoặc kiểm tra bằng Model phía Server, không dùng 
+		Functions/Check constraints/Stored Procedures trong hệ quản trị CSDL.
 
 Tài khoản mặc định: 
 Admin: Email: tthanhphuc753@gmail.com, Password: 123456
