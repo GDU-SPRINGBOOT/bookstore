@@ -1,14 +1,4 @@
-# Thành Viên Nhóm
-
-- **MSSV: 2104110080, Họ và Tên: Trần Thanh Phúc**
-- **MSSV: 2104110060, Họ và Tên: Nguyễn Văn Quốc Anh**
-- **MSSV: 2104110098, Họ và Tên: Trương Quang Hùng**
-- **MSSV: 2104110066, Họ và Tên: Nguyễn Chung Hoàng**
-- **MSSV: 2104110072, Họ và Tên: Phạm Lê Huy Tiến**
-- **MSSV: 2104110097, Họ và Tên: Phạm Nguyễn Hoàng Thế Nghĩa**
-- **MSSV: 2104110067, Họ và Tên: Nguyễn Lê Bảo Phước**
-
-# MÔ TẢ VỀ ĐỀ TÀI
+# MÔ TẢ VỀ DỰ ÁN
 
 Website bao gồm 3 loại người dùng tương tác: người dùng không có tài khoản (guest), người dùng có tài khoản (customer), và người quản trị hệ thống (admin).
 
